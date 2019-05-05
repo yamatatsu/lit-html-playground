@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "postinstall": "cp -r ./node_modules/lit-html ./public/lib/lit-html",
     "start": "nodemon -w public --exec http-server public -c-1"
   },
   "devDependencies": {
