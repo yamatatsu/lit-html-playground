@@ -1,0 +1,17 @@
+{
+  "name": "lit-html-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -w public --exec http-server public -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "lit-html": "^1.0.0"
+  }
+}
